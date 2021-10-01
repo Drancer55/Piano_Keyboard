@@ -8,4 +8,4 @@
 
 ### Este piano en pantalla se ha creado con la finalidad de distinguir las variaciones de tonos musicales distribuidos en 4 octavas, con el propósito idílico de fortalecer la audición del usuario y practicar las tareas propuestas en cuaquier lugar donde se tenga un computador o dispositivo móvil, cumpliendo así con los objetivos de aprendizaje musical. 
 
-![Diagrama de Flujo]()
+![Diagrama de Flujo](https://github.com/Drancer55/Piano_Keyboard/blob/main/Assets/IMG/_Diagrama%20de%20flujo.jpeg)
