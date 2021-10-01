@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="StylePiano.css">
+    <title>Piano_Keyboard</title>
+</head>
+<body>
+    <div class="piano"><!--Notas musicales divididas en negras y blancas (natural y bemol), respectivamente-->
+        
+        <div data-note="C1" class="key white"><kbd>Tab</kbd></div>
+        <div data-note="Db1" class="key black"><kbd>1</kbd></div>
+        <div data-note="D1" class="key white"><kbd>Q</kbd></div>
+        <div data-note="Eb1" class="key black"><kbd>2</kbd></div>
+        <div data-note="E1" class="key white"><kbd>W</kbd></div>
+        <div data-note="F1" class="key white"><kbd>E</kbd></div>
+        <div data-note="Gb1" class="key black"><kbd>4</kbd></div>
+        <div data-note="G1" class="key white"><kbd>R</kbd></div>
+        <div data-note="Ab1" class="key black"><kbd>5</kbd></div>
+        <div data-note="A1" class="key white"><kbd>T</kbd></div>
+        <div data-note="Bb1" class="key black"><kbd>6</kbd></div>
+        <div data-note="B1" class="key white"><kbd>Y</kbd></div>
+        
+        <div data-note="C2" class="key white"><kbd>U</kbd></div>
+        <div data-note="Db2" class="key black"><kbd>8</kbd></div>
+        <div data-note="D2" class="key white"><kbd>I</kbd></div>
+        <div data-note="Eb2" class="key black"><kbd>9</kbd></div>
+        <div data-note="E2" class="key white"><kbd>O</kbd></div>
+        <div data-note="F2" class="key white"><kbd>P</kbd></div>
+        <div data-note="Gb2" class="key black"><kbd>'</kbd></div>
+        <div data-note="G2" class="key white"><kbd>`</kbd></div>
+        <div data-note="Ab2" class="key black"><kbd>¡</kbd></div>
+        <div data-note="A2" class="key white"><kbd>+</kbd></div>
+        <div data-note="Bb2" class="key black"><kbd>BckSpce</kbd></div>
+        <div data-note="B2" class="key white"><kbd>Enter</kbd></div>
+        
+        <div data-note="C3" class="key white"><kbd>&lt</kbd></div>
+        <div data-note="Db3" class="key black"><kbd>A</kbd></div>
+        <div data-note="D3" class="key white"><kbd>Z</kbd></div>
+        <div data-note="Eb3" class="key black"><kbd>S</kbd></div>
+        <div data-note="E3" class="key white"><kbd>X</kbd></div>
+        <div data-note="F3" class="key white"><kbd>C</kbd></div>
+        <div data-note="Gb3" class="key black"><kbd>F</kbd></div>
+        <div data-note="G3" class="key white"><kbd>V</kbd></div>
+        <div data-note="Ab3" class="key black"><kbd>G</kbd></div>
+        <div data-note="A3" class="key white"><kbd>B</kbd></div>
+        <div data-note="Bb3" class="key black"><kbd>H</kbd></div>
+        <div data-note="B3" class="key white"><kbd>N</kbd></div>
+
+        <div data-note="C4" class="key white"><kbd>M</kbd></div>
+        <div data-note="Db4" class="key black"><kbd>K</kbd></div>
+        <div data-note="D4" class="key white"><kbd>,</kbd></div>
+        <div data-note="Eb4" class="key black"><kbd>L</kbd></div>
+        <div data-note="E4" class="key white"><kbd>.</kbd></div>
+        <div data-note="F4" class="key white"><kbd>-</kbd></div>
+        <div data-note="Gb4" class="key black"><kbd>Ñ</kbd></div>
+        <div data-note="G4" class="key white"><kbd>Shift</kbd></div>
+        <div data-note="Ab4" class="key black"><kbd>Ç</kbd></div>
+        <div data-note="A4" class="key white"><kbd>End</kbd></div>
+        <div data-note="Bb4" class="key black"><kbd>AvPage</kbd></div>
+        <div data-note="B4" class="key white"><kbd>Ctrl</kbd></div>
+
+        <div data-note="C5" class="key white"><kbd>Alt</kbd></div>
+
+    </div>
+
+<div><!--Archivo de sonido .mp3-->
+    <audio id="C1" src="Assets\Sound\1C.mp3"></audio>
+    <audio id="Db1" src="Assets\Sound\2Db.mp3"></audio>
+    <audio id="D1" src="Assets\Sound\3D.mp3"></audio>
+    <audio id="Eb1" src="Assets\Sound\4Eb.mp3"></audio>
+    <audio id="E1" src="Assets\Sound\5E.mp3"></audio>
+    <audio id="F1" src="Assets\Sound\6F.mp3"></audio>
+    <audio id="Gb1" src="Assets\Sound\7GB.mp3"></audio>
+    <audio id="G1" src="Assets\Sound\8G.mp3"></audio>
+    <audio id="Ab1" src="Assets\Sound\9Ab.mp3"></audio>
+    <audio id="A1" src="Assets\Sound\10A.mp3"></audio>
+    <audio id="Bb1" src="C:\BootCamp\Keyboard_Piano\Assets\Sound\11Bb.mp3"></audio>
+    <audio id="B1" src="Assets\Sound\12B.mp3"></audio>
+
+    <audio id="C2" src="Assets\Sound\13C.mp3"></audio>
+    <audio id="Db2" src="Assets\Sound\14Db.mp3"></audio>
+    <audio id="D2" src="Assets\Sound\15D.mp3"></audio>
+    <audio id="Eb2" src="Assets\Sound\16Eb.mp3"></audio>
+    <audio id="E2" src="Assets\Sound\17E.mp3"></audio>
+    <audio id="F2" src="Assets\Sound\18F.mp3"></audio>
+    <audio id="Gb2" src="Assets\Sound\19GB.mp3"></audio>
+    <audio id="G2" src="Assets\Sound\20G.mp3"></audio>
+    <audio id="Ab2" src="Assets\Sound\21Ab.mp3"></audio>
+    <audio id="A2" src="Assets\Sound\22A.mp3"></audio>
+    <audio id="Bb2" src="C:\BootCamp\Keyboard_Piano\Assets\Sound\23Bb.mp3"></audio>
+    <audio id="B2" src="Assets\Sound\24B.mp3"></audio>
+
+    <audio id="C3" src="Assets\Sound\25C.mp3"></audio>
+    <audio id="Db3" src="Assets\Sound\26Db.mp3"></audio>
+    <audio id="D3" src="Assets\Sound\27D.mp3"></audio>
+    <audio id="Eb3" src="Assets\Sound\28Eb.mp3"></audio>
+    <audio id="E3" src="Assets\Sound\29E.mp3"></audio>
+    <audio id="F3" src="Assets\Sound\30F.mp3"></audio>
+    <audio id="Gb3" src="Assets\Sound\31Gb.mp3"></audio>
+    <audio id="G3" src="Assets\Sound\32G.mp3"></audio>
+    <audio id="Ab3" src="Assets\Sound\33Ab.mp3"></audio>
+    <audio id="A3" src="Assets\Sound\34A.mp3"></audio>
+    <audio id="Bb3" src="C:\BootCamp\Keyboard_Piano\Assets\Sound\35Bb.mp3"></audio>
+    <audio id="B3" src="Assets\Sound\36B.mp3"></audio>
+    
+    <audio id="C4" src="Assets\Sound\37C.mp3"></audio>
+    <audio id="Db4" src="Assets\Sound\38Db.mp3"></audio>
+    <audio id="D4" src="Assets\Sound\39D.mp3"></audio>
+    <audio id="Eb4" src="Assets\Sound\40Eb.mp3"></audio>
+    <audio id="E4" src="Assets\Sound\41E.mp3"></audio>
+    <audio id="F4" src="Assets\Sound\42F.mp3"></audio>
+    <audio id="Gb4" src="Assets\Sound\43Gb.mp3"></audio>
+    <audio id="G4" src="Assets\Sound\44G.mp3"></audio>
+    <audio id="Ab4" src="Assets\Sound\45Ab.mp3"></audio>
+    <audio id="A4" src="Assets\Sound\46A.mp3"></audio>
+    <audio id="Bb4" src="C:\BootCamp\Keyboard_Piano\Assets\Sound\47Bb.mp3"></audio>
+    <audio id="B4" src="Assets\Sound\48B.mp3"></audio>
+
+    <audio id="C5" src="Assets\Sound\49C.mp3"></audio>
+
+</div>
+<script src="JSPiano.js" defer></script>
+</body>
+</html>
